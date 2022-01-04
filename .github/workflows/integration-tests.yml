@@ -45,7 +45,7 @@ jobs:
           repository: 'gileli121/integration-tests-dummy'
           submodules: 'recursive'
       - name: Show input variables
-        run: echo "environment = ${{ inputs.environment }}"
+        run: echo "environment (input by workflow call) = ${{ inputs.environment }}"
       # Runs a single command using the runners shell
       - name: Run script.sh
         run: | 
