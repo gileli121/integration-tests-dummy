@@ -10,4 +10,5 @@
 # print it 
 echo "Hello from integration tests!"
 cd "submodules/migration-service-dummy"
+chmod +x script.sh
 ./script.sh
