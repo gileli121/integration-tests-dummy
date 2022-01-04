@@ -1,0 +1,3 @@
+[submodule "submodules/migration-service-dummy"]
+	path = submodules/migration-service-dummy
+	url = https://github.com/gileli121/migration-service-dummy.git

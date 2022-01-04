@@ -9,3 +9,5 @@
  
 # print it 
 echo "Hello from integration tests!"
+cd "submodules/migration-service-dummy"
+./script.sh
